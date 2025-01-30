@@ -14,7 +14,6 @@ function buscarPelicula() {
     const titulo = document.getElementById('txtPelicula').value;
     const apiKey = "30063268"
     const url = "https://omdbapi.com/?apikey=" + apiKey + "&t=" + titulo
-    alert(url);
 
     fetch(url)
     .then((response)=>{
