@@ -25,6 +25,7 @@ function buscarPelicula() {
     })
     .then(data => {
         if(data.Response=="False") {
+            limpiar()
             mensaje.innerHTML = data.Error;
         } else {
             mostrar(data)
