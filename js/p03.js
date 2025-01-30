@@ -38,7 +38,8 @@ function buscarPelicula() {
 
 function mostrar(data){
 
-    registros++
+    limpiar();
+    registros++;
     const fila = document.createElement('tr');
 
     const col1 = document.createElement('td');
@@ -67,6 +68,5 @@ function limpiar(){
     tbody.innerHTML = "";
     mensaje.innerHTML = "";
     poster.src = "/img/poster.jpg";
-    registros = 0;
     
 }
