@@ -3,7 +3,7 @@ const btnLimpiar = document.getElementById('limpiar');
 const mensaje = document.getElementById('mensaje');
 const tabla = document.getElementById('table');
 const tbody = document.getElementById('tbody');
-const poster = document.getElementById('poster')
+const poster = document.getElementById('poster');
 
 var registros = 0;
 
